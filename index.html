@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bordenave</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="imagenes/descarga1.jpg" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="menu container">
+            <img class="logo-1" src="imagenes/descarga1.jpg" alt="">
+            <input type="checkbox" id="menu" />
+            <label for="menu">
+                <img src="imagenes/menu.png" class="menu-icono" alt="">
+            </label>
+            <nav class="navbar">
+                <div class="menu-1">
+                    <ul>
+                        <li><a href="">Inicio</a></li>
+                        <li><a href="#productos">Productos</a></li>
+                        <li><a href="contacto.html">Contáctanos</a></li>
+                        <li><a id="logout" href="#" class="logout-button">Salir</a></li>
+                        
+                    </ul>
+                </div>
+                <img class="logo-2" src="imagenes/descarga.jpg" alt="">
+                <div class="menu-2">
+                    <ul>
+                        <li><a href="#horarios">Horario</a></li>
+                    </ul>
+                    <div class="socials">
+                        <a href="https://www.facebook.com/productosbordenave/?locale=es_LA">
+                            <div class="social">
+                                <img src="imagenes/s1.svg" alt="">
+                            </div>
+                        </a>
+                        <a href="https://twitter.com/home">
+                            <div class="social">
+                                <img src="imagenes/s2.svg" alt="">
+                            </div>
+                        </a>
+                        <a href="https://www.instagram.com/bordenaveuy/">
+                            <div class="social">
+                                <img src="imagenes/s3.svg" alt="">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="header-content container">
+            <div class="swiper mySwiper-1">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="slider">
+                            <div class="slider-txt">
+                                <h1>Hamburguesa</h1>
+                                <p>
+                                    Probá nuestras hamburguesas bombas caseras, elaboradas por nosotros con 
+                                    130gr de carne, lechuga, tomate y cheddar! No te quedes sin probarlas...
+                                </p>
+                                <div class="botones">
+                                    <a href="#" class="btn-1">Comprar</a>
+                                    <a href="#productos" class="btn-1">Menu</a>
+                                </div>
+                            </div>
+                            <div class="slider-img">
+                                <img src="imagenes/slider1.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slider">
+                            <div class="slider-txt">
+                                <h1>Refuerzo de fiambre y queso</h1>
+                                <p>
+                                    No te pierdas de nuestro refuerzo de jamón y queso con tomate y lechuga! 
+                                </p>
+                                <div class="botones">
+                                    <a href="#" class="btn-1">Comprar</a>
+                                    <a href="#productos" class="btn-1">Menu</a>
+                                </div>
+                            </div>
+                            <div class="slider-img">
+                                <img src="imagenes/slider2.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slider">
+                            <div class="slider-txt">
+                                <h1>Hamburguesa con muzza</h1>
+                                <p>
+                                    Probá nuestras hamburguesas 100% caseras hechas con 130gr de carne, lechuga, tomate, 
+                                    salsa a elección y mucha muzza!
+                                </p>
+                                <div class="botones">
+                                    <a href="#" class="btn-1">Comprar</a>
+                                    <a href="#productos" class="btn-1">Menu</a>
+                                </div>
+                            </div>
+                            <div class="slider-img">
+                                <img src="imagenes/slider3.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </div>
+    </header>
+
+    <section id="productos">
+    <main class="products">
+        <div class="tabs container">
+            <input type="radio" name="tabs" id="tab1" checked="checked" class="tabInput" value="1">
+            <label for="tab1">Hamburguesas</label>
+            <div class="tab">
+                <div class="swiper mySwiper-2" id="swiper1">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="imagenes/food1.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Producto</h4>
+                                    <p>Calidad premium</p>
+                                    <span class="price">$50.00</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="imagenes/food2.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Producto</h4>
+                                    <p>Calidad premium</p>
+                                    <span class="price">$50.00</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="imagenes/food3.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Producto</h4>
+                                    <p>Refuerzo de pollo</p>
+                                    <span class="price">$50.00</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="imagenes/food1.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Producto</h4>
+                                    <p>Calidad premium</p>
+                                    <span class="price">$50.00</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="imagenes/food2.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Producto</h4>
+                                    <p>Calidad premium</p>
+                                    <span class="price">$50.00</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="imagenes/food3.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Producto</h4>
+                                    <p>Refuerzo de pollo</p>
+                                    <span class="price">$50.00</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+            <input type="radio" name="tabs" id="tab2" checked="checked" class="tabInput" value="2">
+            <label for="tab2">Burritos</label>
+            <div class="tab">
+                <div class="swiper mySwiper-2" id="swiper2">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="imagenes/food4.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Burrito uno</h4>
+                                    <p>Burrito de carne con verduras</p>
+                                    <span class="price">$200/span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="imagenes/food5.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Burrito dos</h4>
+                                    <p>Burrito con guacamole, verdura y trozos de carne</p>
+                                    <span class="price">$250</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="imagenes/food6.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Burrito tres</h4>
+                                    <p>Burrito con camarón con arroz, verduras y trozos de carne</p>
+                                    <span class="price">$350</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="imagenes/food4.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Burrito uno</h4>
+                                    <p>Burrito de carne con verduras</p>
+                                    <span class="price">$200/span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="imagenes/food5.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Burrito dos</h4>
+                                    <p>Burrito con guacamole, verdura y trozos de carne</p>
+                                    <span class="price">$250</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="imagenes/food6.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Burrito tres</h4>
+                                    <p>Burrito con camarón con arroz, verduras y trozos de carne</p>
+                                    <span class="price">$350</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+            <input type="radio" name="tabs" id="tab3" checked="checked" class="tabInput" value="3">
+            <label for="tab3">Variedad</label>
+            <div class="tab">
+                <div class="swiper mySwiper-2" id="swiper3">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="imagenes/food7.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Ensalada</h4>
+                                    <p>Ensalada de lechuga con aros de cebolla por encima</p>
+                                    <span class="price">$180</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="imagenes/food8.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Brochetas</h4>
+                                    <p>Brochetas de carne</p>
+                                    <span class="price">2x $180</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="imagenes/food9.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Pizza</h4>
+                                    <p>Pizza con pepperoni</p>
+                                    <span class="price">$200</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="imagenes/food7.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Ensalada</h4>
+                                    <p>Ensalada de lechuga con aros de cebolla por encima</p>
+                                    <span class="price">$180</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="imagenes/food8.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Brochetas</h4>
+                                    <p>Brochetas de carne</p>
+                                    <span class="price">2x $180</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="imagenes/food9.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Pizza</h4>
+                                    <p>Pizza con pepperoni</p>
+                                    <span class="price">$200</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+        </div>
+    </main> 
+</section>
+    <section id="informacion" class="info container">
+        <div class="info-img">
+            <img src="imagenes/info.png" alt="">
+        </div>
+        <div class="info-txt">
+            <h2>Refuerzo de pollo</h2>
+            <p>
+                Refuerzo de pollo 100% elaborado por nosotros, contiene lechuga, tomate, trozos de pollo,
+                pepinillos y salsa a elección.
+            </p>
+            <a href="#" class="btn-2">Más información</a>
+        </div>
+    </section>
+    <section id="reseñas">
+        <div id="reseñas" class="container">
+            <h2>Reseñas de Clientes</h2>
+            <!-- Reemplaza las reseñas existentes con un contenedor -->
+            <div id="reseñas-container"></div>
+            <!-- Formulario de envío de reseñas -->
+            <form id="reseña-form">
+                <h3>Deja tu reseña</h3>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" required>
+                <label for="calificación">Calificación:</label>
+                <select id="calificación" required>
+                    <option value="1">&#9733;</option>
+                    <option value="2">&#9733;&#9733;</option>
+                    <option value="3">&#9733;&#9733;&#9733;</option>
+                    <option value="4">&#9733;&#9733;&#9733;&#9733;</option>
+                    <option value="5">&#9733;&#9733;&#9733;&#9733;&#9733;</option>
+                </select>
+                <label for="comentario">Comentario:</label>
+                <textarea id="comentario" required></textarea>
+                <!-- Agregar un botón de envío -->
+                <button type="button" onclick="agregarReseña()">Enviar Reseña</button>
+            </form>
+        </div>
+    </section>
+    <section class="horario" id="horarios">
+        <div class="horario-info container">
+            <h2>Horario</h2>
+            <div class="horario-txt">
+                <div class="txt">
+                    <h4>Dirección</h4>
+                    <p>
+                        Av. Salto 998, esquina Setembrino Pereda y Av. Soriano y Dr.Felippone
+                    </p>
+                </div>
+                <div class="txt">
+                    <h4>Horario</h4>
+                    <p>
+                        Lunes a Lunes de 20:00 pm hrs a 01:00 am. Retiro en local
+                    </p>
+                    <p>
+                        Pedidos por la página de 20:00 pm hrs a 00:00 am.
+                    </p>
+                </div>
+                <div class="txt">
+                    <h4>Teléfono</h4>
+                    <p>
+                        +598 097348395
+                    </p>
+                </div>
+                <div class="txt">
+                    <h4>Redes Sociales</h4>
+                    <div class="socials">
+                        <a href="https://www.facebook.com/productosbordenave/?locale=es_LA">
+                            <div class="social">
+                                <img src="imagenes/s1.svg" alt="">
+                            </div>
+                        </a>
+                        <a href="https://twitter.com/home">
+                            <div class="social">
+                                <img src="imagenes/s2.svg" alt="">
+                            </div>
+                        </a>
+                        <a href="https://www.instagram.com/bordenaveuy/">
+                            <div class="social">
+                                <img src="imagenes/s3.svg" alt="">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <iframe class="map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3372.165080187299!2d-58.08727782456641!3d-32.307418439889915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95afcbe562d38745%3A0x4b25cbd132dedd40!2sAv.%20Salto%20998%2C%2060000%20Paysand%C3%BA%2C%20Departamento%20de%20Paysand%C3%BA!5e0!3m2!1sen!2suy!4v1700127749154!5m2!1sen!2suy" width= "100%" height="500" style="border:0;" allowfullscreen=""
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <footer class="footer container">
+        <img class="logo-2" src="imagenes/descarga.jpg" alt="">
+        <div class="links">
+            <h4>Otra información</h4>
+                <ul>
+                    <li><a href="#">Como comprar</a></li>
+                    <li><a href="#">Pedidos</a></li>
+                    <li><a href="#">Tiempo</a></li>
+                    <li><a href="#">Entrega</a></li>
+                </ul>
+        </div>
+        <div class="links">
+            <h4>Información importante</h4>
+                <ul>
+                    <li><a href="contacto.html">Acerca de</a></li>
+                    <li><a href="#innformacion">Servicio</a></li>
+                    <li><a href="#reseñas">Reseñas de nuestros clientes</a></li>
+                    <li><a href="#productos">Productos</a></li>
+                </ul>
+        </div>
+        <div class="links">
+            <h4>Redes Sociales</h4>
+                <div class="socials">
+                    <a href="https://www.facebook.com/">
+                        <div class="social">
+                            <img src="imagenes/s1.svg" alt="">
+                        </div>
+                    </a>
+                    <a href="https://twitter.com/home">
+                        <div class="social">
+                            <img src="imagenes/s2.svg" alt="">
+                        </div>
+                    </a>
+                    <a href="https://instagram.com/fooddivcode?igshid=M2RkZGJiMzhjOQ==">
+                        <div class="social">
+                            <img src="imagenes/s3.svg" alt="">
+                        </div>
+                    </a>
+                </div>
+        </div>
+    </footer>
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+
+    <script>
+    const user = JSON.parse(localStorage.getItem('login_success')) || false
+    if(!user){
+    window.location.href = 'login.html'
+    }
+    const logout = document.querySelector('#logout')
+    .addEventListener('click', ()=>{
+    alert('Hasta pronto!')
+    localStorage.removeItem('login_success')
+    window.location.href = 'login.html'
+    })
+    </script>
+</body>
+</html>
